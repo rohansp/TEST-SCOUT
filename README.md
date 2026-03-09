@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check for test files
-        uses: YOUR_GITHUB_USER_NAME/test-scout@v1
+        uses: rohansp/test-scout@v1
         with:
           pattern: 'test_*.py'
           strict_mode: 'true'
